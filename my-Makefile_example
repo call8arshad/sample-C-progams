@@ -1,0 +1,22 @@
+CC=cc
+CXX=c++
+
+
+#% : %.cpp
+#	$(CXX) -o $@ $<  #will create name form name.cpp
+
+#$< "it will take the first input file (if you are suing multiple .c/.cpp then\
+        use $^ instead of $<
+
+#% : %.c
+#	$(CC) -o $@ $<
+
+execs = test
+
+#'all' will compile one by one 
+all : $(execs)
+
+#test1 : test1.cpp test2.c
+
+clean :
+	rm -f $(execs)
