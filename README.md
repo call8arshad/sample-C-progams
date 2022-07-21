@@ -1,2 +1,4 @@
 # sample-C-progams
-Have different C programs each .c file is a seperate Application
+
+Please find a list of different C programs.
+Each .c file is a seperate Application.
